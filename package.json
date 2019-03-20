@@ -1,0 +1,43 @@
+{
+    "name": "mm-scores",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "alias": {
+        "components": "./src/components",
+        "config": "./src/config",
+        "layouts": "./src/layouts",
+        "context": "./src/Context",
+        "provider": "./src/Provider",
+        "types": "./src/types",
+        "util": "./src/util"
+    },
+    "scripts": {
+        "build": "parcel build index.html",
+        "lint": "tslint -c tslint.json -p tsconfig.json -t stylish",
+        "start": "parcel -p 3000 --no-cache index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "babel-polyfill": "^6.26.0",
+        "moment": "^2.24.0",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.0-0",
+        "@babel/plugin-transform-runtime": "^7.4.0",
+        "@babel/preset-env": "^7.4.1",
+        "@babel/preset-react": "^7.0.0",
+        "@types/node": "^11.11.4",
+        "@types/react": "^16.8.8",
+        "@types/react-dom": "^16.8.2",
+        "parcel-bundler": "^1.12.2",
+        "tslint": "^5.14.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.3.4000"
+    }
+}

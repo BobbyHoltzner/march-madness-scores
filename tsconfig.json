@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "jsx": "react",
+        "target": "es6",
+        "sourceMap": true,
+        "outDir": "dist/",
+        "allowJs": false,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "components/*": ["./src/components/*"],
+            "config/*": ["./src/config/*"],
+            "layouts/*": ["./src/layouts/*"],
+            "context": ["./src/Context"],
+            "provider": ["./src/Provider"],
+            "types/*": ["./src/types/*"],
+            "util/*": ["./src/util/*"]
+        }
+    },
+    "include": ["src/**/*.tsx", "src/**/*.ts"],
+    "exclude": ["node_modules", "typings/*"]
+}

@@ -1,0 +1,10 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "css.validate": false,
+    "prettier.semi": false,
+    "typescript.suggest.autoImports": false
+}
